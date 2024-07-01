@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        PatikaStore patikaStore = new PatikaStore();
+        Manager manager = new Manager();
+        PatikaStore patikaStore = new PatikaStore(manager);
     }
 }

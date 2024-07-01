@@ -5,12 +5,12 @@ public class Product {
     private String name;
     private double price;
     private double discountRate;
-    private int storage;
+    private String storage;
     private double screenSize;
-    private int ram;
+    private String ram;
     private int stock;
 
-    public Product(int id, String type, Brand brand, String name, double price, double discountRate, int storage, double screenSize, int ram, int stock) {
+    public Product(int id, String type, Brand brand, String name, double price, double discountRate, String storage, double screenSize, String ram, int stock) {
         this.id = id;
         this.type = type;
         this.brand = brand;
@@ -71,11 +71,11 @@ public class Product {
         this.discountRate = discountRate;
     }
 
-    public int getStorage() {
+    public String getStorage() {
         return storage;
     }
 
-    public void setStorage(int storage) {
+    public void setStorage(String storage) {
         this.storage = storage;
     }
 
@@ -87,11 +87,11 @@ public class Product {
         this.screenSize = screenSize;
     }
 
-    public int getRam() {
+    public String getRam() {
         return ram;
     }
 
-    public void setRam(int ram) {
+    public void setRam(String ram) {
         this.ram = ram;
     }
 

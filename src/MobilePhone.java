@@ -2,7 +2,7 @@ public class MobilePhone extends Product {
     private int batteryPower;
     private String color;
 
-    public MobilePhone(int id, String type, Brand brand, String name, double price, double discountRate, int storage, double screenSize, int ram, int batteryPower, String color, int stock) {
+    public MobilePhone(int id, String type, Brand brand, String name, double price, double discountRate, String storage, double screenSize, String ram, int batteryPower, String color, int stock) {
         super(id, type, brand, name, price, discountRate, storage, screenSize, ram, stock);
         this.batteryPower = batteryPower;
         this.color = color;
